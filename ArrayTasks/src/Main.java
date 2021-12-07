@@ -8,6 +8,7 @@ public class Main {
 
     }
          /*
+         TASK 1
          Given the array numbers, for each numbers[i] find out how many numbers in the array are smaller than it.
          That is, for each numbers[i] you have to count the number of valid j's such that j != i and nums[j] < nums[i].
          Return the answer in an array.
@@ -34,6 +35,7 @@ public class Main {
     }
 
     /*----------------------------------------------------------------------------------------------------------------------------------------------------------
+    TASK 2
     Given an integer k and an integer start.
     Define an array numbers where numbers[i] = start + 2*i (0-indexed) and k == nums.length.
     Return the bitwise XOR of all elements of numbers.
@@ -53,6 +55,7 @@ public class Main {
     }
 
     /*----------------------------------------------------------------------------------------------------------------------------------------------------------
+    TASK 3
     Given an integer columnNumber, return its corresponding column title as it appears in an Excel sheet
     input = 754508321
     .*/
@@ -68,6 +71,7 @@ public class Main {
     }
 
     /*----------------------------------------------------------------------------------------------------------------------------------------------------------
+    TASK 4
     Given an integer array numbers, return the third distinct maximum number in this array.
     If the third maximum does not exist, return the maximum number.
     input = [37,64,63,2,41,78,51,36,2,20,25,41,72,100, 17,43,54,27,34,86,12,48,70,44,87,68,62,98,68,30,8,92,5,10]
@@ -108,6 +112,7 @@ public class Main {
     }
 
     /*----------------------------------------------------------------------------------------------------------------------------------------------------------
+    TASK 5
     Given a binary array nums, you should delete one element from it.
     Return the size of the longest non-empty subarray containing only 1's in the resulting array.
     Return 0 if there is no such subarray.
@@ -137,6 +142,7 @@ public class Main {
     }
 
     /*----------------------------------------------------------------------------------------------------------------------------------------------------------
+    TASK 6
     You are given an integer num. You can swap two digits at most once to get the maximum valued number.
     Return the maximum valued number you can get.
     input = 20398736
@@ -175,6 +181,7 @@ public class Main {
     }
 
     /*----------------------------------------------------------------------------------------------------------------------------------------------------------
+    TASK 7
     You are climbing a staircase. It takes n steps to reach the top.
     Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
     input = 43
@@ -194,6 +201,7 @@ public class Main {
     }
 
     /*----------------------------------------------------------------------------------------------------------------------------------------------------------
+    TASK 8
     Given an integer array arr. You have to sort the integers in the array in ascending order by the number of 1's in their binary
     representation and in case of two or more integers have the same number of 1's you have to sort them in ascending order.
     Return the sorted array.
